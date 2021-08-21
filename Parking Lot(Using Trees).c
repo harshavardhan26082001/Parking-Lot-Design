@@ -723,7 +723,7 @@ int main()
 	allguests = NULL;
 	FILE *fp;
 	int x;
-	fp = fopen("C:\\Users\\OM\\Desktop\\data1.txt","r");
+	fp = fopen("C:\\Users\\Harsha\\Desktop\\data1.txt","r");
 
   	while(x != -1)
 	{
@@ -732,28 +732,28 @@ int main()
 	}
 	fclose(fp);
 	x = 0;
-	fp = fopen("C:\\Users\\OM\\Desktop\\data2.txt","r");
+	fp = fopen("C:\\Users\\Harsha\\Desktop\\data2.txt","r");
 	while(x != -1)
 	{
 		x = fscanf(fp,"%d %d %d %d %d %d %d %d",&compactA[0],&compactA[1],&compactA[2],&compactA[3],&largeA[0],&largeA[1],&largeA[2],&largeA[3]);
 	}	
 	fclose(fp);
 	x = 0;
-	fp = fopen("C:\\Users\\OM\\Desktop\\data3.txt","r");
+	fp = fopen("C:\\Users\\Harsha\\Desktop\\data3.txt","r");
 	while(x != -1)
 	{
 		x = fscanf(fp,"%d %d %d %d %d %d %d %d",&compactB[0],&compactB[1],&compactB[2],&compactB[3],&largeB[0],&largeB[1],&largeB[2],&largeB[3]);
 	}	
 	fclose(fp);
 	x = 0;
-	fp = fopen("C:\\Users\\OM\\Desktop\\data4.txt","r");
+	fp = fopen("C:\\Users\\Harsha\\Desktop\\data4.txt","r");
 	while(x != -1)
 	{
 		x = fscanf(fp,"%d %d %d %d %d %d %d %d",&compactC[0],&compactC[1],&compactC[2],&compactC[3],&largeC[0],&largeC[1],&largeC[2],&largeC[3]);
 	}	
 	fclose(fp);
 	x = 0;
-	fp = fopen("C:\\Users\\OM\\Desktop\\data5.txt","r");
+	fp = fopen("C:\\Users\\Harsha\\Desktop\\data5.txt","r");
 	while(x != -1)
 	{
 			x = fscanf(fp,"%d %d %d %s %s",&vehicle_number,&vehicle_type,&no_of_visitors,date,time);	
